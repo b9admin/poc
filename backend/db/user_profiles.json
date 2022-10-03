@@ -1,0 +1,12 @@
+[
+ {
+  "id": "sid.moitra",
+  "name": "Sid",
+  "legal_document": {
+   "document_type": "National ID",
+   "document_number": "Y0987"
+  },
+  "annual_income": 60000,
+  "credit_limit": 30000
+ }
+]

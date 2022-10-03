@@ -1,0 +1,56 @@
+[
+ {
+  "id": "1663714821835890000",
+  "user_id": "sid.moitra",
+  "sales_order": {
+   "id": "SO-1663714753",
+   "line_items": [
+    {
+     "product": {
+      "id": "MDA-1",
+      "name": "Dishwasher, 10 Persons, Silver - A15-45-SR",
+      "segment": "MDA",
+      "price": 6233,
+      "discount_percent_minicash": 0
+     },
+     "quantity": 1
+    }
+   ],
+   "shipping_address": "Branderburger tor",
+   "total_order_price": 6233
+  },
+  "total_payment": 6233,
+  "start_date": "2022-09-21",
+  "tenor_months": 12,
+  "end_date": "2023-09-21",
+  "installment_value": 590,
+  "rate_of_interest": 2.01
+ },
+ {
+  "id": "1663714892580977000",
+  "user_id": "sid.moitra",
+  "sales_order": {
+   "id": "SO-1663714853",
+   "line_items": [
+    {
+     "product": {
+      "id": "MDA-2",
+      "name": "White Whale Refrigerator, No Frost, 450 Liter, Silver - 4195MSSP",
+      "segment": "MDA",
+      "price": 14610,
+      "discount_percent_minicash": 8
+     },
+     "quantity": 1
+    }
+   ],
+   "shipping_address": "Brandenburger Tor",
+   "total_order_price": 14610
+  },
+  "total_payment": 13441.2,
+  "start_date": "2022-09-21",
+  "tenor_months": 24,
+  "end_date": "2024-09-21",
+  "installment_value": 717,
+  "rate_of_interest": 2.08
+ }
+]
