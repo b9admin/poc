@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-lates
+  vmImage: ubuntu-latest
 
 variables:
   GOBIN:  '$(GOPATH)/bin' # Go binaries path
