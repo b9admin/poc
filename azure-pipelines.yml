@@ -16,8 +16,8 @@ variables:
   modulePath: '$(GOPATH)/src/github.com/$(build.repository.name)' # Path to the module's code
 steps:
 - script: |
-    wget "https://storage.googleapis.com/golang/go1.12.3.linux-amd64.tar.gz" --output-document "$(Agent.BuildDirectory)/go1.12.3.tar.gz"
-    tar -C '$(Agent.BuildDirectory)' -xzf "$(Agent.BuildDirectory)/go1.12.3.tar.gz"
+    wget "https://storage.googleapis.com/golang/go1.17.3.linux-amd64.tar.gz" --output-document "$(Agent.BuildDirectory)/go1.17.3.tar.gz"
+    tar -C '$(Agent.BuildDirectory)' -xzf "$(Agent.BuildDirectory)/go1.17.3.tar.gz"
   displayName: 'Set up the Go workspace'
 
 - script: |
