@@ -22,5 +22,7 @@ steps:
 
 - script: |
     go version
-  workingDirectory: '$(modulePath)'
+    mkdir -p '$(modulePath)'
+    go build -v ./...
+  #workingDirectory: '$(modulePath)'
   displayName: 'Get dependencies, then build'
